@@ -1,0 +1,27 @@
+/*http://elrumordelaluz.github.io/csshake/#1*/
+/*http://ianlunn.github.io/Hover/*/
+/*https://www.minimamente.com/project/magic/*/
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_hero_image*/
+/*http://michalsnik.github.io/aos/*/
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("chitralu/sk.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.rbtn {
+	border-radius: 0px 15px;
+}
+
+.rcard {
+	border-radius: 0px 50px;
+}
+
+body{
+	/*overflow-y: hidden;*/
+	overflow-x: hidden;
+}

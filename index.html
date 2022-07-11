@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cruze Property Solutions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="chitralu/temp.ico" type="image/ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    jQuery(document).ready(function($) {
+      var alterClass = function() {
+        var ww = document.body.clientWidth;
+        if (ww < 576) {
+          $('.adr').removeClass('px-5');
+          $('.ding').attr('data-aos', 'fade-right');
+          $('.bong').attr('data-aos', 'zoom-out-right');
+        } else if (ww >= 576) {
+          $('.adr').addClass('px-5');
+          $('.ding').attr('data-aos', 'fade-left');
+          $('.bong').attr('data-aos', 'zoom-out-left');
+        };
+      };
+      $(window).resize(function(){
+        alterClass();
+      });
+//Fire it when the page first loads:
+alterClass();
+});
+</script>
+</head>
+<body>
+
+  <!-- 1 begin -->
+  <div class="container-fluid min-vh-100 bg-warning hero-image" id="hero">
+
+  </div>
+  <!-- 1 end -->
+  <!-- 2 begin -->
+  <div class="container-fluid min-vh-100 bg-white" id="services">
+
+    <h2 class="text-center pt-5 mb-4">Our SERVICES</h2>
+
+    <div class="row text-center p-4">
+      <div class="col" data-aos="fade-right">
+        <img class="img-fluid mx-auto d-block" src="chitralu/services/buy.png" width="150" height="150" alt="Buy Properties">
+        <button type="button" class="btn btn-warning rbtn"><h5>Buy Properties</h5></button>
+      </div>
+      <div class="col" data-aos="fade-right">
+        <img class="img-fluid mx-auto d-block" src="chitralu/services/pg-serviced.png" width="150" height="150" alt="Buy Properties">
+        <button type="button" class="btn btn-warning rbtn"><h5>PG/Serviced Apartments</h5></button>
+      </div>
+      <div class="col" data-aos="fade-right">
+        <img class="img-fluid mx-auto d-block" src="chitralu/services/propman.png" width="150" height="150" alt="Buy Properties">
+        <button type="button" class="btn btn-warning rbtn"><h5>Property Management</h5></button>
+      </div>
+    </div>
+
+    <div class="row text-center p-4">
+      <div class="col ding" data-aos="fade-left">
+        <img class="img-fluid mx-auto d-block" src="chitralu/services/cons4.png" width="150" height="150" alt="Buy Properties">
+        <button type="button" class="btn btn-warning rbtn"><h5>Site Constructions</h5></button>
+      </div>
+      <div class="col ding" data-aos="fade-left">
+        <img class="img-fluid mx-auto d-block" src="chitralu/services/inte.png" width="150" height="150" alt="Buy Properties">
+        <button type="button" class="btn btn-warning rbtn"><h5>Interior Designing</h5></button>
+      </div>
+      <div class="col ding" data-aos="fade-left">
+        <img class="img-fluid mx-auto d-block" src="chitralu/services/fac3.png" width="150" height="150" alt="Buy Properties">
+        <button type="button" class="btn btn-warning rbtn"><h5>Facility Management</h5></button>
+      </div>
+      <div class="col ding" data-aos="fade-left">
+        <img class="img-fluid mx-auto d-block" src="chitralu/services/tech.png" width="150" height="150" alt="Buy Properties">
+        <button type="button" class="btn btn-warning rbtn"><h5>Technology Services</h5></button>
+      </div>
+    </div>
+
+  </div>
+  <!-- 2 end -->
+  <!-- 3 begin -->
+
+  <div class="container-fluid min-vh-100 bg-light" id="profile">
+    <h2 class="text-center pt-5 mb-4">Introduction</h2>
+    <div class="row">
+      <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+        <center>
+          <div class="card rcard shadow mb-4 bg-white" data-aos="zoom-out-right" style="width:300px;">
+            <img class="card-img-top img-fluid rcard" src="https://via.placeholder.com/300?text=Sibhi+Kumar+S" alt="Sibhi Kumar S">
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-warning rbtn">See Profile</a>
+            </div>
+          </div>
+
+        </center>
+      </div>
+      
+
+      <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 mb-4">
+        <div>
+
+          <div class="card rcard shadow mb-4 bg-white bong" data-aos="zoom-out-left">
+           <div><p class="text-justify px-5 pt-5">
+            <i class="fa fa-quote-left" style="font-size: 30px;"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lorem tortor, bibendum ac justo in, placerat semper justo. Aliquam justo elit, malesuada vel purus ac, consequat vehicula dui. Vestibulum pharetra tristique dui, auctor mollis quam consequat quis. Nam ornare tellus nec turpis maximus consectetur. Fusce pretium vehicula risus, id tincidunt diam semper justo vestibulum pharetra tristique dui enean lorem tortor, bibendum ac justo in.
+          </p>
+        </div>
+
+        <div><h5 class="text-left pl-4">#Mission</h5>
+          <p class="text-justify px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lorem tortor, bibendum ac justo in, placerat semper justo. Aliquam justo elit, malesuada vel purus ac, consequat.</p>
+        </div>
+
+        <div><h5 class="text-left pl-4">#Vision</h5>
+          <p class="text-justify px-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lorem tortor, bibendum ac justo in, placerat semper justo. Aliquam justo elit, malesuada vel purus ac, consequat.</p>
+        </div>
+
+
+        <div class="text-right pr-5">
+          <p class="pb-3">- Sibhi Kumar S&nbsp;&nbsp;<i class="fa fa-quote-right" style="font-size: 30px;"></i>
+          </p>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- 3 end -->
+
+<!-- 4 begin -->
+
+<div class="container-fluid min-vh-100 bg-white" id="contact">
+  <h2 class="text-center pt-5 mb-4">Reach Us</h2>
+  <div class="row">
+    <div class="col-xl-6 col-lg-6">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7774.2132061782395!2d80.1633324!3d13.0288829!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5260e0edbbf6df%3A0x91614f29dd66e091!2sCruze%20Stays%20-%20PG%20For%20Men%20in%20Porur!5e0!3m2!1sen!2sin!4v1579019981375!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" class="rcard shadow" allowfullscreen="true" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"></iframe>
+    </div>
+    <div class="col-xl-6 col-lg-6">
+      <center>
+        <div class="card rcard shadow mb-4 bg-white" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" style="width:100%; height: 450px;">
+          <div class="card-body">
+            <h4 class="card-title">#Address</h4>
+            <div class="adr py-2">
+              <div class="media">
+                <img src="chitralu/icons/map.png" class="align-self-center mr-4" style="width:40px; height: 40px;">
+                <div class="media-body">
+                  <p class="text-justify">Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...</p>
+                </div>
+              </div>
+            </div>
+            <div class="adr py-2">
+              <div class="media">
+                <img src="chitralu/icons/call (2).png" class="align-self-center mr-4" style="width:40px; height: 40px;">
+                <div class="media-body">
+                  <p class="text-justify">+91 9176858303</p>
+                </div>
+              </div>
+            </div>
+            <div class="adr py-2">
+              <div class="media">
+                <img src="chitralu/icons/em (3).png" class="align-self-center mr-4" style="width:40px; height: 40px;">
+                <div class="media-body">
+                  <p class="text-justify">johndoe@gmail.com</p>
+                </div>
+              </div>
+            </div><hr>
+            <div class="adr py-2">
+              <div class="row">
+                <div class="col">
+                 <a href="#!"><img data-aos="flip-up" class="img-fluid" src="chitralu/icons/fb (1).png" alt="Facebook" width="60px" height="60px"></a> 
+               </div>
+               <div class="col">
+                 <a href="#!"><img data-aos="flip-down" class="img-fluid" src="chitralu/icons/wp (2).png" alt="WhatsApp" width="60px" height="60px"></a>
+               </div>
+               <div class="col">
+                <a href="#!"><img data-aos="flip-up" class="img-fluid" src="chitralu/icons/lin.png" alt="LinkedIn" width="60px" height="60px"></a>
+              </div>
+              <div class="col">
+                <a href="#!"><img data-aos="flip-down" class="img-fluid" src="chitralu/icons/ins.png" alt="Instagram" width="60px" height="60px"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </center>
+  </div>
+</div>
+</div>
+
+<!-- 4 end -->
+<!-- footer starting -->
+<div class="container-fluid bg-dark" id="footer">
+  <div class="text-center text-white p-3">
+    Developed by Cruze Property Solutions, &copy; 2020.
+  </div>
+</div>
+
+<!-- footer end -->
+
+<!-- https://www.flaticon.com/packs/social-media-logos-3 -->
+
+<script>
+  AOS.init({
+    easing: 'ease-out-back',
+    duration: 1000
+  });
+</script>
+
+</body>
+
+</html>
